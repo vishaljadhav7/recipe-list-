@@ -1,0 +1,14 @@
+@import-normalize; 
+@import 'recipe-list.css';
+@import 'button.css';
+@import 'recipe.css';
+@import 'recipe-edit.css';
+
+
+html{
+    font-size: 20px;
+}
+
+.mr-1{
+    margin-right: 5px;
+}
