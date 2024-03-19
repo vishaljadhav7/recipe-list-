@@ -1,10 +1,13 @@
 import React from 'react';
 
-const RecipeIngredientEdit = () => {
+const RecipeIngredientEdit = ({ingredient}) => {
+  console.log(ingredient);
   return (
     <>
-     <input className='recipe-edit__input'/>
-     <input className='recipe-edit__input'/>
+     <input value={ingredient.name} className='recipe-edit__input'/>
+      
+     <input value={ingredient.price} className='recipe-edit__input'/>
+
      <button className='btn btn--danger'>&times;</button>
     </>
   )
